@@ -1,4 +1,35 @@
+body{
+    background-color: #c8bdbd;
+}
 
 .COUNTER{
+    text-align: center;
+}
+
+#demo{
+    font-size: 60px;
+}
+
+button{
+    padding: 10px 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+#plus{
+    background-color: green;
+    color: #fff;
+    font-size: 30px;
+}
+#minus{
+    background-color: red;
+    color: #fff;
+    font-size: 30px;
+}
+#minus:disabled{
+    background-color: gray;
+}
+
+h1{
     text-align: center;
 }
